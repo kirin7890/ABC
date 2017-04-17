@@ -1,2 +1,3 @@
-.class
-.text
+*.class
+*.text
+.DS_Store
