@@ -14,7 +14,7 @@ public class Main{
 
     double b2 = Math.round(((double)b*10.0/60.0))/10.0;
 
-    if(b <= 0.2*60){
+    if(b2 <= 0.2){
       dir = "C";
     } else if(a < defD + oneD*0 || a >= defD + oneD*15 ){
       dir = "N";
