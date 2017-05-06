@@ -1,6 +1,5 @@
 s = raw_input()
 t = raw_input()
-# s, t = map(str, raw_input().split())
 
 ac = ['a', 't', 'c', 'o', 'd', 'e', 'r', '@']
 def check(x):
