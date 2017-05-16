@@ -1,7 +1,7 @@
-n = int(raw_input())
+n = int(input())
 t = []
 
-for i in xrange(n):
-    t[i] = raw_input()
+for i in range(n):
+    t.append(input())
 
-print min(t)
+print (min(t))
