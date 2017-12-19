@@ -1,0 +1,24 @@
+sa = list(input())
+sb = list(input())
+sc = list(input())
+
+def game(s):
+    if s == 'a':
+        if len(sa) == 0:
+            print('A')
+            exit()
+        else:
+            game(sa.pop(0))
+    if s == 'b':
+        if len(sb) == 0:
+            print('B')
+            exit()
+        else:
+            game(sb.pop(0))
+    if s == 'c':
+        if len(sc) == 0:
+            print('C')
+            exit()
+        else:
+            game(sc.pop(0))
+game('a')
